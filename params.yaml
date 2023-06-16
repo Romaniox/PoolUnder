@@ -1,0 +1,36 @@
+dataset:
+  path_test: D:\datasets\pool\under\dataset_120623
+model_test:
+  name: yolov8m_120623.pt
+model_train:
+  box: 7.5
+  cls: 0.5
+  copy_paste: 0.0
+  degrees: 0.0
+  dfl: 1.5
+  epochs: 50
+  fl_gamma: 0
+  fliplr: 0.5
+  flipud: 0.0
+  hsv_h: 0.08
+  hsv_s: 0.7
+  hsv_v: 0.4
+  imgsz: 640
+  label_smoothing: 0.0
+  lr0: 0.01
+  lrf: 0.01
+  mixup: 0.0
+  model: yolov8m.pt
+  momentum: 0.937
+  mosaic: 1.0
+  name: yolov8m_120623
+  nbs: 64
+  optimizer: auto
+  perspective: 0.0
+  scale: 0.3
+  shear: 0.0
+  translate: 0.1
+  warmup_bias_lr: 0.1
+  warmup_epochs: 3.0
+  warmup_momentum: 0.8
+  weight_decay: 0.0005
