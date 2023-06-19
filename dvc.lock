@@ -43,6 +43,3 @@ stages:
     - path: metrics/metrics.json
       md5: 1f5b8369ec877ae4d516b6899ac6d060
       size: 199
-    - path: plots/prc.json
-      md5: d64dd88213d2e0e597117e0dcffe1116
-      size: 920346

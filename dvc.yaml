@@ -27,9 +27,9 @@ stages:
       - metrics/metrics.json:
           cache: false
 
-    plots:
-      - plots/prc.json:
-          cache: false
+    # outs:
+    #   - plots/prc.json
+
 
 plots:
   plots/prc.json:
