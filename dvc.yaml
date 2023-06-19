@@ -27,8 +27,8 @@ stages:
       - metrics/metrics.json:
           cache: false
 
-    outs:
-      - plots:
+    plots:
+      - plots/prc.json:
           cache: false
 
 plots:
@@ -37,6 +37,6 @@ plots:
     x: recall
     y: precision
 
-params:
-  - params.yaml
+# params:
+#   - params.yaml
 
